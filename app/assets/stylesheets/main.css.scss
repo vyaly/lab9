@@ -31,6 +31,10 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
+// Make alerts work
+.alert-alert { @extend .alert-danger; }
+.alert-notice { @extend .alert-info; }
+
 /* Customize container */
 @media (min-width: 768px) {
   .container {
