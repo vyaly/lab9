@@ -173,4 +173,4 @@ You can now do something like ```User.first.admin?```, which returns true or
 false. Then make the necessary changes so that users who are admins can create
 and edit quits of all users.
 
-You made it!
+You made it! Submit the written portion of the lab [here](https://docs.google.com/forms/d/1wP6s8MEMzYgTYUKYeBcABGCi664EwrNLq763nCogTSg/viewform).
