@@ -1,0 +1,4 @@
+<h1><%= @user.name %> <%= link_to '+', new_quit_path(user_id: @user) %></h1>
+<% @user.quits.each do |quit| %>
+  <p><%= quit.text %>  <%= link_to 'Edit', edit_quit_path(quit) %></p>
+<% end %>
