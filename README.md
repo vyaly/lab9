@@ -57,7 +57,7 @@ in ```/sign_in``` using ```rake routes``` and visiting it in your browser.
     Add two ```<li>``` elements below the existing link to 'Users' in
     ```application.html.erb``` that link to the sign in/out paths depending on
     if the user is signed in (only one of those li elements will be visible at
-    any time to the user). You should add 5-6 lines of extra codes.
+    any time to the user). You should add 5-6 lines of extra code.
 
 3. _(Person B codes)_ So now we have logging in and out. Now we want to make
 sure that if a user is not signed in that we only allow them to view the sign in
