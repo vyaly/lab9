@@ -10,16 +10,18 @@ request, and having your partner merge it in before starting on the next
 question.
 
 Designate one person as person A, and the other as person B.
-Have person A fork this repo on Github, go to Settings -> Collaborators, and add
+Follow these steps as person A:
+- Make a new empty repo called lab9 on github
+- git clone (this railsdecal repo)
+- git remote rm origin
+- git remote add origin https://github.com/<your username>/lab9
+- git push origin master
+Then on Github go to Settings -> Collaborators, and add
 person B to the repo.
 
-Person A:
+Now partner B should run
 
-Person B:
-
-Now both partners should run
-
-    git clone https://github.com/<your username>/lab9
+    git clone https://github.com/<partner A username>/lab9
 
 to start working on the app. There is a written portion of this lab, so write
 down your answers in ```lab9.txt``` and [submit them through the form](https://docs.google.com/forms/d/1wP6s8MEMzYgTYUKYeBcABGCi664EwrNLq763nCogTSg/viewform)!
