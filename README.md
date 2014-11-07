@@ -11,11 +11,11 @@ question.
 
 Designate one person as person A, and the other as person B.
 Follow these steps as person A:
-- Make a new empty repo called lab9 on github
-- git clone (this railsdecal repo)
-- git remote rm origin
-- git remote add origin https://github.com/<your username>/lab9
-- git push origin master
+- Make a new empty repo called `lab9` on github
+- `git clone (this railsdecal repo)`
+- `git remote rm origin`
+- `git remote add origin https://github.com/<your username/lab9`
+- `git push origin master`
 Then on Github go to Settings -> Collaborators, and add
 person B to the repo.
 
