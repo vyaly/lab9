@@ -16,7 +16,7 @@ Follow these steps as person A:
 - `git remote rm origin`
 - `git remote add origin https://github.com/<your username/lab9`
 - `git push origin master`
-- 
+
 Then on Github go to Settings -> Collaborators, and add
 person B to the repo.
 
